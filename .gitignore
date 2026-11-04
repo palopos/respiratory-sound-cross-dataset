@@ -1,0 +1,19 @@
+# Datos de los proveedores y artefactos regenerables
+ficheros/0 ICBHI/
+ficheros/0 SPRSound/
+ficheros/1 Segmentados_WAV/
+ficheros/2 Espectrogramas/
+ficheros/3 Embeddings YAMNet/
+ficheros/3 Embeddings wav2vec2/
+ficheros/4 Domain Adaptation/
+ficheros/predicciones_originales/
+ficheros/figuras_originales/
+modelos/
+analisis/
+manuscrito/
+logs/
+
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
