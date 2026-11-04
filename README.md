@@ -11,8 +11,9 @@ trained from scratch on log-Mel spectrograms, a trainable head on frozen YAMNet 
 Checkpoints and decision thresholds are selected on validation data only; test sets are used only for the final
 evaluation.
 
-Event-level predictions of every reported run, the run configurations and manifests, and the analysis outputs are
-archived on Zenodo: https://doi.org/10.5281/zenodo.XXXXXXX
+- Code (this repository), archived on Zenodo: https://doi.org/10.5281/zenodo.23961520
+- Event-level predictions of every reported run, run configurations and manifests, and analysis outputs:
+  https://doi.org/10.5281/zenodo.23961572
 
 ## Contents
 
@@ -48,8 +49,9 @@ ficheros/0 SPRSound/train_wav/, train_json/, test_wav/, test_json/
 patient identifier, metadata and expected audio path. Recordings without a recoverable patient identifier and
 SPRSound recordings annotated as Poor Quality are excluded (see the manuscript, Section 2.2).
 
-To check the analyses without retraining, download the Zenodo archive and extract it at the repository root; it uses
-the same relative paths (`modelos/`, `ficheros/predicciones_originales/`, `ficheros/figuras_originales/`, `analisis/`).
+To check the analyses without retraining, download the data archive (https://doi.org/10.5281/zenodo.23961572) and
+extract it at the repository root; it uses the same relative paths (`modelos/`, `ficheros/predicciones_originales/`,
+`ficheros/figuras_originales/`, `analisis/`).
 
 ## Environment
 
@@ -116,4 +118,5 @@ The code is released under the MIT License (see `LICENSE`). The datasets are sub
 
 ## Citation
 
-If you use this code, please cite the article above (citation details will be added on publication).
+If you use this code, please cite the article above (citation details will be added on publication) and the archived
+code (https://doi.org/10.5281/zenodo.23961520); see `CITATION.cff`.

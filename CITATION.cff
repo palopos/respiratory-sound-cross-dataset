@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Code for: Patient-Independent Evaluation Reveals Direction- and Architecture-Dependent Cross-Dataset Transfer in Respiratory Sound Classification"
+type: software
+authors:
+  - family-names: "López-Osorio"
+    given-names: "Pablo"
+    affiliation: "University of Cádiz"
+  - family-names: "Sánchez-Morillo"
+    given-names: "Daniel"
+    affiliation: "Instituto de Investigación e Innovación Biomédica de Cádiz (INiBICA)"
+version: "1.0.1"
+license: MIT
+repository-code: "https://github.com/palopos/respiratory-sound-cross-dataset"
+doi: "10.5281/zenodo.23961520"
+keywords:
+  - respiratory sound classification
+  - cross-dataset transfer
+  - patient-independent evaluation
+  - ICBHI 2017
+  - SPRSound
+  - YAMNet
+  - wav2vec 2.0
